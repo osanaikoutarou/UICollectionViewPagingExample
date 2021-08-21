@@ -15,6 +15,7 @@
 		1EB306B126D0861E002B782E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EB306AF26D0861E002B782E /* LaunchScreen.storyboard */; };
 		1EB306BC26D0861F002B782E /* UICollectionViewPagingExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB306BB26D0861F002B782E /* UICollectionViewPagingExampleTests.swift */; };
 		1EB306C726D0861F002B782E /* UICollectionViewPagingExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB306C626D0861F002B782E /* UICollectionViewPagingExampleUITests.swift */; };
+		1EB306D626D08668002B782E /* SampleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB306D526D08668002B782E /* SampleCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		1EB306C226D0861F002B782E /* UICollectionViewPagingExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UICollectionViewPagingExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EB306C626D0861F002B782E /* UICollectionViewPagingExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewPagingExampleUITests.swift; sourceTree = "<group>"; };
 		1EB306C826D0861F002B782E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EB306D526D08668002B782E /* SampleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		1EB306A326D0861B002B782E /* UICollectionViewPagingExample */ = {
 			isa = PBXGroup;
 			children = (
+				1EB306D426D0864F002B782E /* Object */,
 				1EB306A426D0861B002B782E /* AppDelegate.swift */,
 				1EB306A626D0861B002B782E /* SceneDelegate.swift */,
 				1EB306A826D0861B002B782E /* ViewController.swift */,
@@ -126,6 +129,14 @@
 				1EB306C826D0861F002B782E /* Info.plist */,
 			);
 			path = UICollectionViewPagingExampleUITests;
+			sourceTree = "<group>";
+		};
+		1EB306D426D0864F002B782E /* Object */ = {
+			isa = PBXGroup;
+			children = (
+				1EB306D526D08668002B782E /* SampleCollectionViewCell.swift */,
+			);
+			path = Object;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +271,7 @@
 			files = (
 				1EB306A926D0861B002B782E /* ViewController.swift in Sources */,
 				1EB306A526D0861B002B782E /* AppDelegate.swift in Sources */,
+				1EB306D626D08668002B782E /* SampleCollectionViewCell.swift in Sources */,
 				1EB306A726D0861B002B782E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

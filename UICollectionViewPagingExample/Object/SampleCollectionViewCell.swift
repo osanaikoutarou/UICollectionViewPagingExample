@@ -9,4 +9,5 @@ import UIKit
 
 class SampleCollectionViewCell: UICollectionViewCell {
     
+    @IBOutlet weak var label: UILabel!
 }
